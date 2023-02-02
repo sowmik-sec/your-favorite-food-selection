@@ -32,208 +32,264 @@
       </div>
     </header>
     <main class="bg-[#CFCFCF] pt-6">
-      <section class="container mx-auto">
-        <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
-          <div class="text-center border border-slate-600">
+      <section class="container mx-auto grid grid-cols-10 gap-4">
+        <div
+          class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 md:col-span-8 col-span-6 gap-4"
+        >
+          <div id="biryani" class="text-center border border-slate-600">
             <img
               class="w-full"
               src="/images/Malabar-Beef-biriyani-.jpg"
               alt=""
             />
-            <h3 class="text-3xl font-semibold">Malabar Beef Biryani</h3>
-            <h3 class="text-2xl font-medium mt-3">$350</h3>
+            <h3 id="biryani-item" class="text-3xl font-semibold">
+              Malabar Beef Biryani
+            </h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $<span id="biryani-price">449</span>
+            </h3>
             <p>1:1</p>
-            <p>
-              Layers of beef, rice & potatoes are infused with warm & delectable
-              blends of masala.
-            </p>
+            <p>Sowmik's Special Beef Biryani.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-biryani"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="kalabhuna" class="text-center border border-slate-600">
             <img
               class="w-full"
               src="/images/Beef-Kala-Bhuna-Recipe.jpg"
               alt=""
             />
-            <h3 class="text-3xl font-semibold">Beef Kala Bhuna</h3>
-            <h3 class="text-2xl font-medium mt-3">$450</h3>
+            <h3 id="kalabhuna-item" class="text-3xl font-semibold">
+              Beef Kala Bhuna
+            </h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $ <span id="kalabhuna-price">450</span>
+            </h3>
             <p>1:1</p>
             <p>Special chef from Chittagong cooked this.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-kalabhuna"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="borhani" class="text-center border border-slate-600">
             <img
               class="w-full"
               src="/images/borhani-o-borhanir-moshla.jpg"
               alt=""
             />
-            <h3 class="text-3xl font-semibold">Borhani</h3>
-            <h3 class="text-2xl font-medium mt-3">$150</h3>
+            <h3 id="borhani-item" class="text-3xl font-semibold">Borhani</h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $ <span id="borhani-price">150</span>
+            </h3>
             <p>1:1</p>
-            <p>
-              test the combination of fresh yogurt, chilli, mustard seeds, black
-              salt, coriander and mint.
-            </p>
+            <p>Sowmik's special Borhani.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-borhani"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="jhalfry" class="text-center border border-slate-600">
             <img class="w-full" src="/images/chicken-jhal-fry.jpg" alt="" />
-            <h3 class="text-3xl font-semibold">Chicken Jhal Fry</h3>
-            <h3 class="text-2xl font-medium mt-3">$350</h3>
+            <h3 id="jhalfry-item" class="text-3xl font-semibold">
+              Chicken Jhal Fry
+            </h3>
+            <h3 class="jhalfry-price text-2xl font-medium mt-3">
+              $ <span id="jhalfry-price">350</span>
+            </h3>
             <p>1:1</p>
             <p>Made from pahari chicken.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-jhalfry"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="mandi" class="text-center border border-slate-600">
             <img
               class="w-full"
               src="/images/Chicken-Mandi_944_531.jpg"
               alt=""
             />
-            <h3 class="text-3xl font-semibold">Chicken Mandi</h3>
-            <h3 class="text-2xl font-medium mt-3">$550</h3>
+            <h3 id="mandi-item" class="text-3xl font-semibold">
+              Chicken Mandi
+            </h3>
+            <h3 class="mandi-price text-2xl font-medium mt-3">
+              $<span id="mandi-price">550</span>
+            </h3>
             <p>1:1</p>
             <p>Traditional Arabian food.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-mandi"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="chow" class="text-center border border-slate-600">
             <img class="w-full" src="/images/Chow-mein.jpg" alt="" />
-            <h3 class="text-3xl font-semibold">Chow mein</h3>
-            <h3 class="text-2xl font-medium mt-3">$350</h3>
+            <h3 id="chow-item" class="text-3xl font-semibold">Chow mein</h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $ <span id="chow-price">350</span>
+            </h3>
             <p>1:1</p>
             <p>Authentic Chinese Chow Mein</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-chow"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="plater" class="text-center border border-slate-600">
             <img
               class="w-full"
               src="/images/Dal_Bhat_from_Nepal_curry_dhal_lentils_spinach_rice_yogurt.jpg"
               alt=""
             />
-            <h3 class="text-3xl font-semibold">Vegetarian Plater</h3>
-            <h3 class="text-2xl font-medium mt-3">$800</h3>
+            <h3 id="plater-item" class="text-3xl font-semibold">
+              Vegetarian Plater
+            </h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $ <span id="plater-price">800</span>
+            </h3>
             <p>1:1</p>
             <p>Nepalian plater.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-plater"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+
+          <!-- id addedid addedid addedid addedid added -->
+          <div id="faluda" class="text-center border border-slate-600">
             <img class="w-full" src="/images/faluda-thumbnail.jpg" alt="" />
-            <h3 class="text-3xl font-semibold">Faluda</h3>
-            <h3 class="text-2xl font-medium mt-3">$200</h3>
+            <h3 id="faluda-item" class="text-3xl font-semibold">Faluda</h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $<span id="faluda-price">200</span>
+            </h3>
             <p>1:1</p>
             <p>Made from fresh fruits and more.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-faluda"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="kabsa" class="text-center border border-slate-600">
             <img class="w-full" src="/images/Kabsa.jpg" alt="" />
-            <h3 class="text-3xl font-semibold">Arabian Kabsa</h3>
-            <h3 class="text-2xl font-medium mt-3">$650</h3>
+            <h3 id="kabsa-item" class="text-3xl font-semibold">
+              Arabian Kabsa
+            </h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $<span id="kabsa-price">650</span>
+            </h3>
             <p>1:1</p>
             <p>Authentic Traditional Arabian food</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-kabsa"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="panta" class="text-center border border-slate-600">
             <img
               class="w-full"
               src="/images/panta bhat rice water hilsha fish.jpg"
               alt=""
             />
-            <h3 class="text-3xl font-semibold">
-              Special Panta Bhat with Hilsa Fish
+            <h3 id="panta-item" class="text-3xl font-semibold">
+              Panta Bhat with Hilsa
             </h3>
-            <h3 class="text-2xl font-medium mt-3">$500</h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $<span id="panta-price">500</span>
+            </h3>
             <p>1:1</p>
             <p>Authentic Bangali food.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-panta"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="steamed" class="text-center border border-slate-600">
             <img class="w-full" src="/images/steamed-rice.jpg" alt="" />
-            <h3 class="text-3xl font-semibold">Steamed Rice</h3>
-            <h3 class="text-2xl font-medium mt-3">$150</h3>
+            <h3 id="steamed-item" class="text-3xl font-semibold">
+              Steamed Rice
+            </h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $<span id="steamed-price">150</span>
+            </h3>
             <p>1:1</p>
             <p>Special steamed rice.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-steamed"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="sticky" class="text-center border border-slate-600">
             <img class="w-full" src="/images/sticky-rice.jpg" alt="" />
-            <h3 class="text-3xl font-semibold">Sticky Rice</h3>
-            <h3 class="text-2xl font-medium mt-3">$200</h3>
+            <h3 id="sticky-item" class="text-3xl font-semibold">Sticky Rice</h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $<span id="sticky-price">200</span>
+            </h3>
             <p>1:1</p>
             <p>Authentic east Asian rice.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-sticky"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="soup" class="text-center border border-slate-600">
             <img
               class="w-full"
               src="/images/Thai-Chicken-Rice-Noodle-Soup.jpg"
               alt=""
             />
-            <h3 class="text-3xl font-semibold">Thai Soup</h3>
-            <h3 class="text-2xl font-medium mt-3">$450</h3>
+            <h3 id="soup-item" class="text-3xl font-semibold">Thai Soup</h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $<span id="soup-price">450</span>
+            </h3>
             <p>1:1</p>
             <p>Sowmik's Special</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-soup"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
-          <div class="text-center border border-slate-600">
+          <div id="crispy" class="text-center border border-slate-600">
             <img class="w-full" src="/images/Crispy fried chicken.jpg" alt="" />
-            <h3 class="text-3xl font-semibold">Crispy fried Chicken</h3>
-            <h3 class="text-2xl font-medium mt-3">$429</h3>
+            <h3 id="crispy-item" class="text-3xl font-semibold">
+              Crispy fried Chicken
+            </h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $ <span id="crispy-price">429</span>
+            </h3>
             <p>1:1</p>
             <p>World Famous.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-crispy"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
@@ -244,18 +300,37 @@
               src="/images/best-fish-and-chips-recipe.jpg"
               alt=""
             />
-            <h3 class="text-3xl font-semibold">Fish N Chips</h3>
-            <h3 class="text-2xl font-medium mt-3">$750</h3>
+            <h3 id="fishnchips-item" class="text-3xl font-semibold">
+              Fish N Chips
+            </h3>
+            <h3 class="text-2xl font-medium mt-3">
+              $<span id="fishnchips-price">750</span>
+            </h3>
             <p>1:1</p>
             <p>Test this British special.</p>
             <button
-              class="bg-sky-400 font-medium text-white px-12 py-2 rounded-lg mb-3"
+              id="btn-fishnchips"
+              class="bg-sky-400 btn-recipe font-medium text-white px-12 py-2 rounded-lg mb-3"
             >
               SELECT
             </button>
           </div>
         </div>
+        <div class="md:col-span-2 col-span-4 sticky top-0 self-start">
+          <div class="h-auto pb-3 w-auto bg-black text-center">
+            <h3 class="text-2xl text-white pt-3 pb-5">
+              Selected <span id="item-count">0</span>
+            </h3>
+            <ol id="item-list" class="text-white"></ol>
+          </div>
+          <div class="h-auto w-auto bg-black text-center mt-6 p-5">
+            <h3 class="text-2xl text-white pt-3">
+              Total Price <span id="total-price">0</span>
+            </h3>
+          </div>
+        </div>
       </section>
     </main>
+    <script src="index.js"></script>
   </body>
 </html>
