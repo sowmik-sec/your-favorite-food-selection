@@ -6,6 +6,8 @@ document.onclick = function (event) {
   if (btn.substring(0, 3) == "btn") {
     document.getElementById(btn).disabled = true;
     document.getElementById(btn).style.backgroundColor = "gray";
+    document.getElementById("btn-checkout").disabled = false;
+    document.getElementById("btn-checkout").style.backgroundColor = "green";
   }
 
   let item = btn.substring(4, btn.length);
@@ -25,8 +27,10 @@ document.onclick = function (event) {
   let price = document.getElementById(item + "-price");
   price = parseFloat(price.innerText);
   console.log(price);
+  let curTotalPrice = parseFloat(
+    document.getElementById("total-price").innerText
+  );
   if (isNaN(price) == false) {
-    document.getElementById("total-price").innerText =
-      price + parseFloat(document.getElementById("total-price").innerText);
+    document.getElementById("total-price").innerText = price + curTotalPrice;
   }
 };
